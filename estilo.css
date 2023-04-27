@@ -1,0 +1,34 @@
+
+#Login{
+    height: 50%;
+    width: 40%;
+    color:white;
+    background-color: rgb(34, 30, 30);
+    border: 3px solid black;
+    border-radius: 50px;
+    padding: 45px;
+    padding-bottom: 45px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+input{
+    outline: none;
+}
+
+button{
+    border: none;
+    border-radius: 12px;
+    padding: 15px;
+    width: 100%;
+    align-items: center;
+    color: white;
+    background-color: #b30000;
+}
+
+button:hover{
+    background-color: #990000;
+    cursor: pointer;
+}
